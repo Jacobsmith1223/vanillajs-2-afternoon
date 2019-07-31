@@ -263,13 +263,13 @@ function draw() {
     });
 
     container.appendChild(ball);
-  }, 50);
+  }, 300);
 }
 window.addEventListener('mouseover', function() {
   drawId = draw();
 });
 window.addEventListener('mouseout', function() {
-  clearInterval(drawId);
+  clearInterval(drawId;
 });
 ```
 
